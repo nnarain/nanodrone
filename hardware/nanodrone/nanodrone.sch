@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Nano Drone"
 Date "2021-09-08"
-Rev "REV A"
+Rev "REV B"
 Comp ""
 Comment1 "Mini drone based on and Arduino Nano BLE Sense"
 Comment2 "Author: Natesh Narain"
@@ -22,17 +22,6 @@ F 1 "Feather" H 2450 2900 60  0000 C CNN
 F 2 "adafruit:Feather_no_mounting" H 2200 4400 60  0001 C CNN
 F 3 "" H 2200 4400 60  0001 C CNN
 	1    2150 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 613A12F9
-P 4350 4050
-F 0 "#PWR0101" H 4350 3800 50  0001 C CNN
-F 1 "GND" H 4355 3877 50  0000 C CNN
-F 2 "" H 4350 4050 50  0001 C CNN
-F 3 "" H 4350 4050 50  0001 C CNN
-	1    4350 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -96,6 +85,7 @@ F 1 "10k" H 3750 3950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3880 4000 50  0001 C CNN
 F 3 "~" H 3950 4000 50  0001 C CNN
 F 4 "RMCF0805FT10K0TR-ND" H 3950 4000 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17408" H 3950 4000 50  0001 C CNN "LCSC Part Number"
 	1    3950 4000
 	1    0    0    -1  
 $EndComp
@@ -108,6 +98,7 @@ F 1 "25" H 4150 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4280 3300 50  0001 C CNN
 F 3 "~" H 4350 3300 50  0001 C CNN
 F 4 "764-1510-2-ND" H 4350 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17577" H 4350 3300 50  0001 C CNN "LCSC Part Number"
 	1    4350 3300
 	1    0    0    -1  
 $EndComp
@@ -133,21 +124,6 @@ Wire Wire Line
 	4350 3550 4350 3500
 Wire Wire Line
 	4350 3150 4350 3050
-Wire Wire Line
-	4350 3950 4350 4050
-Wire Wire Line
-	3950 4150 3950 4350
-$Comp
-L power:GND #PWR0107
-U 1 1 613BD558
-P 5700 4050
-F 0 "#PWR0107" H 5700 3800 50  0001 C CNN
-F 1 "GND" H 5705 3877 50  0000 C CNN
-F 2 "" H 5700 4050 50  0001 C CNN
-F 3 "" H 5700 4050 50  0001 C CNN
-	1    5700 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+BATT #PWR0108
 U 1 1 613BD55E
@@ -168,6 +144,7 @@ F 1 "10k" H 5100 3950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5230 4000 50  0001 C CNN
 F 3 "~" H 5300 4000 50  0001 C CNN
 F 4 "RMCF0805FT10K0TR-ND" H 5300 4000 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17408" H 5300 4000 50  0001 C CNN "LCSC Part Number"
 	1    5300 4000
 	1    0    0    -1  
 $EndComp
@@ -180,6 +157,7 @@ F 1 "25" H 5500 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5630 3300 50  0001 C CNN
 F 3 "~" H 5700 3300 50  0001 C CNN
 F 4 "764-1510-2-ND" H 5700 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17577" H 5700 3300 50  0001 C CNN "LCSC Part Number"
 	1    5700 3300
 	1    0    0    -1  
 $EndComp
@@ -205,21 +183,6 @@ Wire Wire Line
 	5700 3550 5700 3500
 Wire Wire Line
 	5700 3150 5700 3050
-Wire Wire Line
-	5700 3950 5700 4050
-Wire Wire Line
-	5300 4150 5300 4350
-$Comp
-L power:GND #PWR0110
-U 1 1 613C3034
-P 7050 4050
-F 0 "#PWR0110" H 7050 3800 50  0001 C CNN
-F 1 "GND" H 7055 3877 50  0000 C CNN
-F 2 "" H 7050 4050 50  0001 C CNN
-F 3 "" H 7050 4050 50  0001 C CNN
-	1    7050 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+BATT #PWR0111
 U 1 1 613C303A
@@ -240,6 +203,7 @@ F 1 "10k" H 6450 3950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6580 4000 50  0001 C CNN
 F 3 "~" H 6650 4000 50  0001 C CNN
 F 4 "RMCF0805FT10K0TR-ND" H 6650 4000 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17408" H 6650 4000 50  0001 C CNN "LCSC Part Number"
 	1    6650 4000
 	1    0    0    -1  
 $EndComp
@@ -252,6 +216,7 @@ F 1 "25" H 6850 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6980 3300 50  0001 C CNN
 F 3 "~" H 7050 3300 50  0001 C CNN
 F 4 "764-1510-2-ND" H 7050 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17577" H 7050 3300 50  0001 C CNN "LCSC Part Number"
 	1    7050 3300
 	1    0    0    -1  
 $EndComp
@@ -277,21 +242,6 @@ Wire Wire Line
 	7050 3550 7050 3500
 Wire Wire Line
 	7050 3150 7050 3050
-Wire Wire Line
-	7050 3950 7050 4050
-Wire Wire Line
-	6650 4150 6650 4350
-$Comp
-L power:GND #PWR0113
-U 1 1 613C80E8
-P 8400 4050
-F 0 "#PWR0113" H 8400 3800 50  0001 C CNN
-F 1 "GND" H 8405 3877 50  0000 C CNN
-F 2 "" H 8400 4050 50  0001 C CNN
-F 3 "" H 8400 4050 50  0001 C CNN
-	1    8400 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+BATT #PWR0114
 U 1 1 613C80EE
@@ -312,6 +262,7 @@ F 1 "10k" H 7800 3950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7930 4000 50  0001 C CNN
 F 3 "~" H 8000 4000 50  0001 C CNN
 F 4 "RMCF0805FT10K0TR-ND" H 8000 4000 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17408" H 8000 4000 50  0001 C CNN "LCSC Part Number"
 	1    8000 4000
 	1    0    0    -1  
 $EndComp
@@ -324,6 +275,7 @@ F 1 "25" H 8200 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8330 3300 50  0001 C CNN
 F 3 "~" H 8400 3300 50  0001 C CNN
 F 4 "764-1510-2-ND" H 8400 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17577" H 8400 3300 50  0001 C CNN "LCSC Part Number"
 	1    8400 3300
 	1    0    0    -1  
 $EndComp
@@ -350,10 +302,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 3150 8400 3050
 Wire Wire Line
-	8400 3950 8400 4050
-Wire Wire Line
-	8000 4150 8000 4350
-Wire Wire Line
 	4350 3500 4550 3500
 Connection ~ 4350 3500
 Wire Wire Line
@@ -373,14 +321,6 @@ Wire Wire Line
 Connection ~ 8400 3500
 Wire Wire Line
 	8400 3500 8400 3450
-Text Label 3950 4350 2    50   ~ 0
-rtrctl0
-Text Label 5300 4350 2    50   ~ 0
-rtrctl1
-Text Label 6650 4350 2    50   ~ 0
-rtrctl2
-Text Label 8000 4350 2    50   ~ 0
-rtrctl3
 Text Label 4550 3500 0    50   ~ 0
 rtr0
 Text Label 5900 3500 0    50   ~ 0
@@ -508,10 +448,11 @@ L Device:LED D1
 U 1 1 613AA8FC
 P 6150 5300
 F 0 "D1" V 6250 5450 50  0000 C CNN
-F 1 "DGB0" V 6150 5450 50  0000 C CNN
+F 1 "DGB1" V 6150 5450 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6150 5300 50  0001 C CNN
 F 3 "~" H 6150 5300 50  0001 C CNN
 F 4 "475-1410-2-ND" V 6150 5300 50  0001 C CNN "Digi-Key_PN"
+F 5 "C434432" V 6150 5300 50  0001 C CNN "LCSC Part Number"
 	1    6150 5300
 	0    -1   -1   0   
 $EndComp
@@ -520,10 +461,11 @@ L Device:LED D2
 U 1 1 613AAEC3
 P 6600 5300
 F 0 "D2" V 6700 5450 50  0000 C CNN
-F 1 "DBG1" V 6600 5450 50  0000 C CNN
+F 1 "DBG2" V 6600 5450 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 5300 50  0001 C CNN
 F 3 "~" H 6600 5300 50  0001 C CNN
 F 4 "475-1410-2-ND" V 6600 5300 50  0001 C CNN "Digi-Key_PN"
+F 5 "C434432" V 6600 5300 50  0001 C CNN "LSCS Part Number"
 	1    6600 5300
 	0    -1   -1   0   
 $EndComp
@@ -536,6 +478,7 @@ F 1 "100" H 6000 5700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 5700 50  0001 C CNN
 F 3 "~" H 6150 5700 50  0001 C CNN
 F 4 "P100ATR-ND" H 6150 5700 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17408" H 6150 5700 50  0001 C CNN "LCSC Part Number"
 	1    6150 5700
 	1    0    0    -1  
 $EndComp
@@ -548,6 +491,7 @@ F 1 "100" H 6450 5700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6530 5700 50  0001 C CNN
 F 3 "~" H 6600 5700 50  0001 C CNN
 F 4 "P100ATR-ND" H 6600 5700 50  0001 C CNN "Digi-Key_PN"
+F 5 "C17408" H 6600 5700 50  0001 C CNN "LCSC Part Number"
 	1    6600 5700
 	1    0    0    -1  
 $EndComp
@@ -583,24 +527,12 @@ Wire Wire Line
 	6600 5950 6600 5850
 Wire Wire Line
 	6150 5150 6150 5000
-Text Label 6150 5000 0    50   ~ 0
-dgb0
-Wire Wire Line
-	2550 4550 2700 4550
-Text Label 2700 4550 0    50   ~ 0
-dgb0
 Text Notes 9300 2750 0    50   ~ 0
 Rotor Ports
 Text Notes 5850 4700 0    50   ~ 0
 Status / Debug LEDs
 Wire Wire Line
-	2550 4650 2700 4650
-Wire Wire Line
 	6600 5150 6600 5000
-Text Label 2700 4650 0    50   ~ 0
-dgb1
-Text Label 6600 5000 0    50   ~ 0
-dgb1
 Wire Wire Line
 	2550 4050 2700 4050
 Wire Wire Line
@@ -648,10 +580,11 @@ L transistors:NUD3124LT1G Q1
 U 1 1 61405F8F
 P 4350 3750
 F 0 "Q1" H 4455 3796 50  0000 L CNN
-F 1 "NUD3124LT1G" H 4455 3705 50  0000 L CNN
+F 1 "NUD3124LT1G" H 4455 3705 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4350 4200 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf" H 4350 4200 50  0001 C CNN
 F 4 "NUD3124LT1GOSTR-ND" H 4350 3750 50  0001 C CNN "Digi-Key_PN"
+F 5 "C8545" H 4350 3750 50  0001 C CNN "LCSC Part Number"
 	1    4350 3750
 	1    0    0    -1  
 $EndComp
@@ -660,10 +593,11 @@ L transistors:NUD3124LT1G Q2
 U 1 1 61414160
 P 5700 3750
 F 0 "Q2" H 5805 3796 50  0000 L CNN
-F 1 "NUD3124LT1G" H 5805 3705 50  0000 L CNN
+F 1 "NUD3124LT1G" H 5805 3705 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 4200 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf" H 5700 4200 50  0001 C CNN
 F 4 "NUD3124LT1GOSTR-ND" H 5700 3750 50  0001 C CNN "Digi-Key_PN"
+F 5 "C8545" H 5700 3750 50  0001 C CNN "LCSC Part Number"
 	1    5700 3750
 	1    0    0    -1  
 $EndComp
@@ -672,10 +606,11 @@ L transistors:NUD3124LT1G Q3
 U 1 1 614153D2
 P 7050 3750
 F 0 "Q3" H 7155 3796 50  0000 L CNN
-F 1 "NUD3124LT1G" H 7155 3705 50  0000 L CNN
+F 1 "NUD3124LT1G" H 7155 3705 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7050 4200 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf" H 7050 4200 50  0001 C CNN
 F 4 "NUD3124LT1GOSTR-ND" H 7050 3750 50  0001 C CNN "Digi-Key_PN"
+F 5 "C8545" H 7050 3750 50  0001 C CNN "LCSC Part Number"
 	1    7050 3750
 	1    0    0    -1  
 $EndComp
@@ -684,10 +619,11 @@ L transistors:NUD3124LT1G Q4
 U 1 1 6141615F
 P 8400 3750
 F 0 "Q4" H 8505 3796 50  0000 L CNN
-F 1 "NUD3124LT1G" H 8505 3705 50  0000 L CNN
+F 1 "NUD3124LT1G" H 8505 3705 50  0001 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8400 4200 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf" H 8400 4200 50  0001 C CNN
 F 4 "NUD3124LT1GOSTR-ND" H 8400 3750 50  0001 C CNN "Digi-Key_PN"
+F 5 "C8545" H 8400 3750 50  0001 C CNN "LCSC Part Number"
 	1    8400 3750
 	1    0    0    -1  
 $EndComp
@@ -703,4 +639,60 @@ Wire Notes Line
 	6350 4450 6350 2800
 Wire Notes Line
 	7700 4450 7700 2800
+Wire Wire Line
+	3950 4150 3950 4300
+Wire Wire Line
+	3950 4300 4350 4300
+Wire Wire Line
+	4350 4300 4350 3950
+Wire Wire Line
+	5300 4150 5300 4300
+Wire Wire Line
+	5300 4300 5700 4300
+Wire Wire Line
+	5700 4300 5700 3950
+Wire Wire Line
+	6650 4150 6650 4300
+Wire Wire Line
+	6650 4300 7050 4300
+Wire Wire Line
+	7050 4300 7050 3950
+Wire Wire Line
+	8000 4150 8000 4300
+Wire Wire Line
+	8000 4300 8400 4300
+Wire Wire Line
+	8400 4300 8400 3950
+Wire Wire Line
+	3950 4300 3900 4300
+Connection ~ 3950 4300
+Text Label 3900 4300 2    50   ~ 0
+rtrctl0
+Wire Wire Line
+	5300 4300 5250 4300
+Connection ~ 5300 4300
+Text Label 5250 4300 2    50   ~ 0
+rtrctl1
+Wire Wire Line
+	6650 4300 6600 4300
+Connection ~ 6650 4300
+Text Label 6600 4300 2    50   ~ 0
+rtrctl2
+Wire Wire Line
+	8000 4300 7950 4300
+Connection ~ 8000 4300
+Text Label 7950 4300 2    50   ~ 0
+rtrctl3
+Wire Wire Line
+	2550 4450 2700 4450
+Wire Wire Line
+	2550 4550 2700 4550
+Text Label 2700 4450 0    50   ~ 0
+dbg1
+Text Label 2700 4550 0    50   ~ 0
+dbg2
+Text Label 6150 5000 0    50   ~ 0
+dbg1
+Text Label 6600 5000 0    50   ~ 0
+dbg2
 $EndSCHEMATC
