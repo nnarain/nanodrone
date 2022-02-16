@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name adafruit)(type Legacy)(uri ${KIPRJMOD}/libraries/kicad-inventory/adafruit.lib)(options "")(descr ""))
+  (lib (name transistors)(type Legacy)(uri ${KIPRJMOD}/libraries/kicad-inventory/transistors.lib)(options "")(descr ""))
+)
