@@ -30,5 +30,6 @@ fp-info-cache
 
 hardware/nanodrone/export/*
 hardware/nanodrone/out/*
+hardware/nanodrone/nanodrone-backups/*
 
 build-assets/*
